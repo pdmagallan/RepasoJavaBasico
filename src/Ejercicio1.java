@@ -71,4 +71,16 @@ public class Ejercicio1 {
         }
     }
 
+    public static void Test(){
+        String linea = "Hola";
+
+            if(linea.startsWith("*")){
+
+                System.out.println(linea);
+
+            }
+
+
+    }
+
 }
