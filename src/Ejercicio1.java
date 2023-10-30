@@ -25,19 +25,15 @@ public class Ejercicio1 {
         int numeroInicio = 5;
         int numeroFin = 10;
         int numeroActual = numeroInicio + 1;
-
         while (numeroActual < numeroFin) {
             System.out.println(numeroActual);
             numeroActual++;
-
         }
     }
-
     public static void Ejercicio1b() {
         int numeroInicio = 5;
         int numeroFin = 10;
         int numeroActual = numeroInicio + 1;
-
         while (numeroActual < numeroFin) {
             if (numeroActual % 2 == 0) { //operacion resto de una division
                 System.out.println(numeroActual);
@@ -58,10 +54,9 @@ public class Ejercicio1 {
                 System.out.println(numeroActual);
             }
             numeroActual++;
-
         }
-
     }
+
 
     public static void Ejercicio1d(){
         int numeroInicio = 5;
@@ -73,14 +68,8 @@ public class Ejercicio1 {
 
     public static void Test(){
         String linea = "Hola";
-
-            if(linea.startsWith("*")){
-
-                System.out.println(linea);
-
-            }
-
-
+        if(linea.startsWith("*")){
+            System.out.println(linea);
+        }
     }
-
 }
