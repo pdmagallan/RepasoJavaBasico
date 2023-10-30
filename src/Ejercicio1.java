@@ -21,6 +21,7 @@
 
 public class Ejercicio1 {
 
+
     public static void Ejercicio1a() {
         int numeroInicio = 5;
         int numeroFin = 10;
